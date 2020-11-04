@@ -9,16 +9,19 @@
     <h1>Registration Form</h1>
     <form action="END POINT">
         <fieldset>
-            <legend>Registration Form</legend>
+            <legend>Personal Detials</legend>
             <label for="name">Name</label><br>
             <input type="text" id="name">
             <br/>
+            <br>
             <label for="password">Password</label><br>
             <input type="password" id="password" name="password" >
             <br/>
+            <br>
             <label for="email">Email address</label><br>
             <input type="email"id="email" name="email">
             <br/>
+            <br>
             <label for="number">Phone number</label><br>
             <input type="number"id="number" name="number">
             <br/>
@@ -28,16 +31,44 @@
             <input type="radio" name="gender" id="female" value="female">female <br>   
             <input type="radio" name="gender" id="other" value="others">other <br>
             <br>
-            <label >Courses:</label><br>
+            
+        </fieldset>
+
+        <fieldset>
+            <br>
+            <legend>Company detials</legend>
+            <label for="company"></label>
+            <select name="company" id="company" >
+                <option value="RE">RAW ENGINEERING</option>
+                <option value="CS">CONTENT STACK</option>
+                <option value="SB">SURFBOARD</option>
+            </select>
+            <br>
+            <br>
+            <label for="company postion">Designation:</label>
+            <input type="text" id="company postion">
+            <br>
+        </fieldset>
+        
+    
+        <fieldset>
+            <legend>Course detials</legend>
+            <br>
+            <label >Courses Done:</label><br>
             <input type="checkbox" name="course1" id="course1"value="HTML">
             <label for="course1">HTML</label><br>
             <input type="checkbox" name="course2" id="course2"value="CSS">
             <label for="course2">CSS</label><br>
             <input type="checkbox" name="course3" id="course3"value="JAVASCRIPT">
             <label for="course3">JAVASCRIPT</label><br>
+            <input type="checkbox" name="course4" id="course4"value="React">
+            <label for="course4">React</label><br>
+            <input type="checkbox" name="course5" id="course5"value="Nodejs">
+            <label for="course5">Node js</label><br>
             <br>
-            <input type="submit" value="submit">
-    </fieldset>
+        </fieldset>
+        <br>
+        <input type="submit" value="submit">
 
     </form>
     
