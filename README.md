@@ -1,22 +1,23 @@
 ## User registration form
 
-#### LIVE DEMO
-
-https://sumilraweng.github.io/userForm/
+[LIVE DEMO] (https://sumilraweng.github.io/userForm/)
 
 ##### Registration form which contian
 
-A.Personal Detials
+- Personal Detials
 
-1>Name
-2>Password
-3>Email
-4>Phone number
-5>Gender radio box
+1. Name
+2. Password
+3. Email
+4. Phone number
+5. Gender radio box
 
-B. Company Detials
-1>Company Selection Field
-2>Designation Input Filed
+- Company Detials
 
-C. Course Detials
-1>Course done check box
+1. Company Selection Field
+2. Designation Input Field
+
+- Course Detials
+
+1. Course done check box
+   s
