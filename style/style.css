@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #3e424b;
+}
+
+body {
+  background-image: url("../assests/banner-images/banner-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-color: #f8f8f8;
+  /* width: 600px; */
+}
+
+label {
+  font-weight: bolder;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #5787ff;
+  font-size: 20px;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+input[type="submit"]:hover {
+  opacity: 1;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+form {
+  padding: 10px;
+}
+
+.logo {
+  margin: auto;
+}
+.logo img {
+  height: 100px;
+  width: 200px;
+}
+
+input[type="radio"] {
+  margin: 5px;
+}
