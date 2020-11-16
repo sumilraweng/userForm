@@ -1,4 +1,4 @@
-## User registration form
+# User registration form
 
 [LIVE DEMO] (https://sumilraweng.github.io/userForm/)
 
